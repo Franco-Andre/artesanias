@@ -1,0 +1,57 @@
+*{margin:0; padding:0 }
+
+html{background-color: #cdc8b8;}
+
+body{width: 1024px; height: 120px; background-color: #CDC8B8;}
+
+header{width: 1024px; height: 120px; background-color: #CDC8B8;}
+
+section#espacio{width: 350px; height: 120px; float:left; background-color: #CDC8B8;}
+section#banner{width: 350px; height: 120px; float:left; background-color: #CDC8B8; margin-right: 174px;}
+section#fecha{width: 90px; height: 120px; float:left; background-color: #81ff0a;}
+
+th{background-color: #DFFB86}
+td{background-color: #DFFB86}
+
+#calendar{
+    width: 90px;
+    height: 120px; 
+    background-color: saddlebrown;
+    color: #fff;
+    border-radius: 5%;
+    box-shadow: 0 4px 4px 0 rgba(50, 50, 50, 0.4);
+}
+#calendar>p{
+    font-family: verdana, arial, sans-serif;
+    padding: 10px 0;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+}
+
+#calendar-day{
+    font-size: 12px;
+}
+
+#calendar-month-year{
+    font-size: 12px;
+}
+
+#calendar-date{
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+
+th{background-color: #D0CC9D;
+    color : darkred; font-family: arial; font-size: 12px;
+}
+
+tr{background-color: #F9F3AB;
+    font-size: 12px; font-family: arial; color: darkred;
+}
+
+footer{
+    width: 1024px; height: 30px; padding: 5px; margin: auto; background-color: darkkhaki;
+    font-size: 12px; font-family: arial; color: darkred;
+}
